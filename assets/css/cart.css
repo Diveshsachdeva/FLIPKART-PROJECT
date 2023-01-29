@@ -1,0 +1,144 @@
+* body
+{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(241, 243, 244);
+}
+
+
+
+.header
+{
+    height: 60px;
+    width: 100%;
+    background-color: #047BD5;
+   
+    
+
+}
+.img
+{
+  height: 6pc;
+  margin-top: -20px;
+  margin-left: 5pc;
+}
+.input
+{
+   
+   position: absolute;
+   margin-top: 10px;
+   margin-left: 1pc;
+   height: 35px;
+   width: 500px;
+   padding-left: 10px;
+   border: none;
+
+}
+
+#search
+{
+ position:absolute;
+ margin-top: 1.29pc;
+ margin-left: 31pc;
+ color: #047BD5;
+}
+.login
+{
+    position: absolute;
+    margin-top: 11px;
+    margin-left: 50pc;
+    height: 35px;
+    width: 120px;
+    color: #047BD5;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: white;
+    border: none;
+}
+
+/*                                        */
+
+.div1
+{
+    background-color: white;
+    height: 50px;
+    width: 80%;
+    margin-left: 5pc;
+}
+ul
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40pc;
+margin-left: 2pc;
+}
+li
+{
+    list-style-type: none;
+    font-size: 20px;
+    margin-top: 10px;
+       cursor: pointer;
+}
+ul li:hover
+{
+    color: #047BD5;
+    border-bottom: solid #047BD5;
+
+   
+    
+}
+
+/*                                       */
+.div2
+{
+    height: 400px;
+    width: 80%;
+    background-color: white;
+    margin-top: 1pc;
+    margin-left: 5pc;
+}
+.img1{
+    position: absolute;
+    height:150px;
+    margin-left: 30pc;
+    margin-top: 2pc;
+    
+}
+h3
+{
+    position: absolute;
+    font-size: 20px;
+    margin-top: 14pc;
+    margin-left: 30.5pc;
+    font-weight: 500;
+    font-family: Arial;
+}
+p
+{
+    position: absolute;
+    font-size: 15px;
+    margin-top: 17pc;
+    margin-left: 28.5pc;
+    font-weight: 500;
+    font-family: Arial;
+}
+.button
+{
+    position: absolute;
+    background-color: #fb641b;
+    height: 40px;
+    width: 180px;
+    border: none;
+    margin-left: 31pc;
+    margin-top: 20pc;
+    cursor: pointer;
+    color: white;
+   
+}
+a
+{
+    text-decoration: none;
+    color: #047BD5;
+}
+

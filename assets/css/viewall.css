@@ -1,0 +1,655 @@
+* body
+{
+margin: 0;
+padding: 0;
+background-color:rgb(236, 230, 230);
+}
+
+
+/* header */
+
+.header
+{
+    height: 60px;
+    width: 100%;
+    background-color: #047BD5;
+}
+.img
+{
+  height: 6pc;
+  margin-top: -20px;
+  margin-left: 5pc;
+}
+.input
+{
+   
+   position: absolute;
+   margin-top: 10px;
+   margin-left: 1pc;
+   height: 35px;
+   width: 500px;
+   padding-left: 10px;
+   border: none;
+
+}
+
+#search
+{
+ position:absolute;
+ margin-top: 1.29pc;
+ margin-left: 31pc;
+ color: #047BD5;
+}
+.login
+{
+    position: absolute;
+    margin-top: 11px;
+    margin-left: 35pc;
+    height: 35px;
+    width: 120px;
+    color: #047BD5;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: white;
+    border: none;
+}
+.seller
+{
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 44pc;
+    height: 33px;
+    width: 130px;
+    background-color: #047BD5 ;
+    border: none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 15px;
+}
+.more
+{
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 54pc;
+    height: 33px;
+    width: 20px;
+    background-color: #047BD5 ;
+    border: none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 15px;
+}
+.cart
+{
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 60pc;
+    height: 33px;
+    width: 20px;
+    background-color: #047BD5 ;
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+}
+#cartlogo
+{
+    position: absolute;
+    color: white;
+    margin-left: 59pc;
+    margin-top: 22px;
+}
+.nav
+{
+    height: 50px;
+    width: 100%;
+    background-color: white;
+}
+ul
+{
+    position: absolute;
+    display: flex;
+    justify-content: centers;
+    align-items: center;
+    gap: 40px;
+    margin-left: 2pc;
+   
+    
+}
+.ultop
+{
+    position: absolute;
+    margin-top: 100px;
+    
+}
+
+
+
+.li1
+{
+    list-style-type: none;
+    font-weight:600;
+color: black;
+}
+li
+{
+    list-style-type: none;
+    font-weight:600;
+    
+}
+a
+{
+    text-decoration: none;
+    color: black;
+}
+
+/* Producte name with images  */
+.div1
+{
+    background-color: white;
+    margin-top: 8px;
+    height: 1000px;
+    position: absolute;
+    width: 100%;
+  
+}
+.bestof
+{
+    font-family: arial;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 25px;
+    font-weight: 600;
+}
+.p
+{
+    text-align: center  ;
+    color: gray;
+    font-family: arial;
+}
+
+/* product namw with images */
+
+  
+
+/* hover on product images  */
+
+#zoom:hover
+{
+    transform: scale(1.1);
+    
+}
+
+/*              */
+
+
+.grinder
+{
+    position:absolute;
+    height: 190px;
+    margin-left: 8pc;
+    margin-top: 2.5pc;
+     
+}
+.topdeal
+{
+    position: absolute;
+    font-size: 14px;
+    margin-top: 15.5pc;
+    margin-left:4.5pc;
+    font-weight: 500;
+    font-family: Arial; 
+}
+.shopnow
+{
+    position: absolute;
+    color: green;
+    margin-top: 17pc;
+    margin-left: 8pc;
+    font-weight: 600;
+    font-size: 17px;
+    font-family: Arial;
+}
+.p2
+{
+    font-family: Arial;
+color: gray;
+position: absolute;
+margin-left: 5pc;
+margin-top: 19pc;
+font-family: Arial;
+}
+
+.printer
+{
+    position:absolute;
+    height: 120px;
+    margin-left: 22pc;
+    margin-top: 3pc;
+    font-family: Arial;
+
+}
+.printertext
+{
+    position: absolute;
+    font-size: 14px;
+    margin-top: 15pc;
+    margin-left: 25pc;
+    font-weight: 500;
+    font-family: Arial;
+
+}
+#printertext
+{
+    position: absolute;
+    color: green;
+    font-family: Arial;
+    margin-left: 24pc;
+    margin-top: 17pc;
+    font-weight: 600;
+    font-family: Arial;
+
+}
+.p3
+{
+    font-family: Arial;
+    color: gray;
+    position: absolute;
+    margin-left: 26pc;
+    margin-top: 19pc;
+    font-family: Arial;
+}
+.camera
+{
+    position:absolute;
+    height: 120px;
+    margin-left: 38PC;
+    margin-top: 2.5pc;
+    font-family: Arial;
+
+}
+.cameratext
+{
+    position: absolute;
+    font-size: 14px;
+    margin-top: 15pc;
+    margin-left: 39pc;
+    font-weight: 500;
+    font-family: Arial;
+
+}
+#cameratext
+{
+    position: absolute;
+    color: green;
+    font-family: Arial;
+    margin-left: 41pc;
+    margin-top: 17pc;
+    font-weight: 600;
+    font-family: Arial;
+}
+.p4
+{
+    font-family: Arial;
+    color: gray;
+    position: absolute;
+    margin-left:38pc;
+    margin-top: 19pc;
+    font-family: Arial;
+}
+.monitor
+{
+    position:absolute;
+    height: 130px;
+    margin-left: 54pc;
+    margin-top:4pc;
+    font-family: Arial;
+
+}
+.monitortext
+{
+    position: absolute;
+    font-size: 14px;
+    margin-top: 15pc;
+    margin-left: 56pc;
+    font-weight: 500;
+    font-family: Arial;
+
+}
+#monitortext
+{
+    position: absolute;
+    color: green;
+    font-family: Arial;
+    margin-left: 55.5pc;
+    margin-top: 17pc;
+    font-weight: 600;
+    font-family: Arial;
+    font-size: 15px;
+
+}
+.p5
+{
+    font-family: Arial;
+    color: gray;
+    position: absolute;
+    margin-left:56.5pc;
+    margin-top: 19pc;
+    font-family: Arial; 
+}
+.headphone
+{
+    position:absolute;
+    height: 150px;
+    margin-left: 70pc;
+    margin-top:4pc;
+    font-family: Arial;
+
+}
+.headphonetext
+{
+    position: absolute;
+    font-size: 15px;
+    margin-top: 15pc;
+    margin-left: 72pc;
+    font-weight: 500;
+    font-family: Arial;
+
+}
+#headphonetext
+{
+    position: absolute;
+    color: green;
+    font-family: Arial;
+    margin-left: 71.5pc;
+    margin-top: 17pc;
+    font-weight: 600;
+    font-family: Arial;
+    font-size: 15px;
+
+}
+.p6
+{
+    font-family: Arial;
+    color: gray;
+    position: absolute;
+    margin-left:71.5pc;
+    margin-top: 19pc;
+    font-family: Arial; 
+}
+/* 2ND PEODUCT LIST */
+.div3
+{
+    position: absolute;
+    margin-top: 35pc;
+    margin-left: 5pc;
+
+}
+.hairtext
+{
+    font-size: 14px;
+    font-family: arial;
+    margin-left: -2pc;
+    font-weight: 500;
+}
+
+#hairtext
+{
+   
+    font-size: 16px;
+    font-family: arial;
+    color: green;
+    font-weight: 600;
+    margin-left: 1pc;
+}
+.hairp2
+{
+   color: gray;
+   font-size: 16px;
+   font-family: arial;
+   margin-left: -1pc;
+}
+
+.projector
+{
+    position: absolute;
+    margin-top: -20pc;
+    margin-left: 16pc;
+    height: 120px;
+}
+.projectortext
+{
+    position: absolute;
+    margin-top: -6.5pc;
+    margin-left: 20pc;
+    font-size: 16px;
+    font-family: arial;
+    font-weight: 500;
+    
+}
+#projectortext
+{
+    position: absolute;
+    margin-top: -4pc;
+    margin-left: 19pc;
+    font-size: 16px;
+    font-family: arial;
+    color: green;
+    font-weight: 600;
+}
+.projectorp3
+{
+    color: gray;
+    font-size: 16px;
+    font-family: arial;
+    margin-left: 21pc;
+    position: absolute;
+    margin-top: -30px;
+}
+.powerbank
+{
+    position: absolute;
+    margin-top: -20pc;
+    margin-left: 37pc;
+    height: 120px;
+}
+.powerbanktext
+{
+    position: absolute;
+    margin-top: -6.5pc;
+    margin-left: 36.5pc;
+    font-size: 16px;
+    font-family: arial;
+    font-weight: 500;
+    
+}
+#powerbanktext
+{
+    position: absolute;
+    margin-top: -4pc;
+    margin-left: 36.5pc;
+    font-size: 16px;
+    font-family: arial;
+    color: green;
+    font-weight: 600;
+}
+.powerbankp4
+{
+    color: gray;
+    font-size: 16px;
+    font-family: arial;
+    margin-left: 37pc;
+    position: absolute;
+    margin-top: -30px;
+}
+
+.tripods
+{
+    position: absolute;
+    margin-top: -20pc;
+    margin-left: 50pc;
+    height: 120px;
+}
+.tripodstext
+{
+    position: absolute;
+    margin-top: -6.5pc;
+    margin-left: 53pc;
+    font-size: 16px;
+    font-family: arial;
+    font-weight: 500;
+    
+}
+#tripodstext
+{
+    position: absolute;
+    margin-top: -4pc;
+    margin-left: 52pc;
+    font-size: 16px;
+    font-family: arial;
+    color: green;
+    font-weight: 600;
+}
+.tripodsp5
+{
+    color: gray;
+    font-size: 16px;
+    font-family: arial;
+    margin-left: 54pc;
+    position: absolute;
+    margin-top: -30px;
+}
+
+.videosonic
+{
+    position: absolute;
+    margin-top: -20pc;
+    margin-left: 65pc;
+    height: 120px;
+}
+.videosonictext
+{
+    position: absolute;
+    margin-top: -6.5pc;
+    margin-left: 67pc;
+    font-size: 16px;
+    font-family: arial;
+    font-weight: 500;
+    
+}
+#videosonictext
+{
+    position: absolute;
+    margin-top: -4pc;
+    margin-left: 66.5pc;
+    font-size: 16px;
+    font-family: arial;
+    color: green;
+    font-weight: 600;
+}
+.videosonicp6
+{
+    color: gray;
+    font-size: 16px;
+    font-family: arial;
+    margin-left: 68pc;
+    position: absolute;
+    margin-top: -30px;
+}
+/* footer */
+
+.footer
+{
+    height: 300px;
+    width: 100%;
+    background-color: #172337;
+    position: absolute;
+    margin-top: 60pc;
+   
+
+}
+li
+{
+    color: gray;
+    font-family: arial;
+    margin-top: -5pc;
+}
+.colorwhite
+{
+    color: white;
+    font-size: 15px;
+    margin-top: 15px;
+    
+
+    
+}
+
+.div4
+{
+    position: absolute;
+   ;
+  margin-left: -0.3pc;
+  margin-top: 5pc;
+
+}
+.div5
+{
+    position: absolute;
+   
+  margin-left: 8pc;
+  margin-top: 5pc;
+
+}
+.div6
+{
+    position: absolute;
+   
+  margin-left: 16pc;
+  margin-top: 5pc;
+}
+.div8
+{
+    
+   margin-top: 3pc;
+  margin-left:-6pc;
+ 
+}
+.hr1
+{
+    position: absolute;
+    height: 180px;
+    margin-left: 35pc;
+    margin-top: 5pc;
+}
+.mailus
+
+{
+    margin-left: 6.5pc;
+}
+.p3
+{
+    position: absolute;
+    margin-top: -2pc;
+    margin-left:38pc;
+    color: white;
+    margin-top: 7pc;
+}
+.p4
+{
+
+    position: absolute;
+    margin-left:65pc;
+    color: white;
+    margin-top: 7pc;
+    font-size: 13px;
+   
+}
+.registered
+{
+    margin-left:21pc;
+}
+
+
